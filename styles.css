@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=McLaren&family=Nunito+Sans&family=Play:wght@700&family=Roboto+Condensed:ital@1&family=Ubuntu+Condensed&display=swap');
+
+body{ 
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: rgb(222, 239, 253);
+    color: rgb(12, 12, 71);
+    
+}
+h1{
+    font-family: 'Poppins', 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+.main{
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.centr{
+    color: rgb(13, 71, 138);
+    display:block;
+    border-left:3px solid rgb(8, 7, 77);
+    padding-left: 15px;
+    font-family: 'Play', sans-serif;
+    font-size: 30px;
+    justify-content: center
+}
+h2{
+    font-size: 40px;
+    font-family: 'Poppins', 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+.p{
+     text-indent: 10px;
+}
+footer a{
+  color:#e1e1fd ;     
+}
+.noAds{
+    text-decoration: line-through;
+    color:rgb(68, 98, 133) ;
+}
+.footer{
+    background-color: #9292D2;
+    margin-left: 0px;
+    color:#e1e1fd ;  
+    text-align: center;
+    margin: 0px;
+}
+
+
+
+
+    @media (min-width:701px){
+
+
+
+
+    body{
+    font-size: 20px;  
+}
+.h1{
+    margin-top: 400px;
+    margin-bottom: 11cm;
+    line-height: 80px;
+    margin-left: 50px;
+    font-size: 60px;
+}
+
+.main{
+  margin-left: 50px; 
+    /*  width: 1100px;*/ 
+}
+img{
+    width: 500px;
+}
+    }
+
+
+
+
+    @media(min-width: 1024px)
+    
+    
+    
+    {
+body{
+    /*font-family: 'Nunito Sans', sans-serif;
+    background-color: rgb(222, 239, 253);
+    color: rgb(12, 12, 71);*/
+    font-size: 25px;
+}
+.h1{
+    margin-top: 400px;
+    margin-bottom: 11cm;
+    line-height: 80px;
+    margin-left: 200px;
+    font-size: 70px;
+    font-family: 'Poppins', 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.main{
+    margin-left: 200px; 
+    width: 1100px;
+}
+
+}
+    
+
+    @media (max-width: 700px)
+
+
+{
+.h1{
+    margin-top: 200px;
+    margin-bottom: 300px;
+    line-height: 80px;
+    /*margin-left: 200px;*/
+    font-size: 37px;
+    font-family: 'Poppins', 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    /*margin-left: 20px;*/
+}
+.centr{
+    color: rgb(13, 71, 138);
+    display:block;
+    border-left:3px solid rgb(8, 7, 77);
+    padding-left: 15px;
+    font-family: 'Play', sans-serif;
+    font-size: 30px;
+    
+}
+.main{
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    margin: 20px;
+    font-size: 23px;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Poppins', 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin: 10px;
+}
+img{
+    width: 300px;
+}
+}
